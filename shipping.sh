@@ -27,7 +27,7 @@ VALIDATE(){
     fi
 }
 
-yum install maven -y &>>$LOGFILE
+yum install maven -y
 
 VALIDATE $? "Installing Maven"
 
