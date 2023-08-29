@@ -51,7 +51,7 @@ cd /usr/share/nginx/html &>>$LOGFILE
 
 VALIDATE $? "Moving to default HTML directory"
 
-unzip /tmp/web.zip
+unzip /tmp/frontend.zip
 
 VALIDATE $? "unzipping web artifact"
 
