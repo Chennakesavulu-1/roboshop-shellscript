@@ -74,4 +74,4 @@ VALIDATE $? "Enabling cart"
 
 systemctl start cart &>>$LOGFILE
 
-VALIDATE $? "Starting cart"
+VALIDATE $? "Starting cart"     #here we starting the cart service
